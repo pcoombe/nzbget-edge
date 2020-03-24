@@ -1,11 +1,12 @@
-<img src="img/icon48.png" align="absmiddle"> nzbget-chrome
+<img src="img/icon48.png" align="absmiddle"> nzbget-edge
 =============
 
-Google chrome extension to interact with nzbget
+Extension to interact with nzbget
 
 ### Version history
 #### 1.6 - (current dev)
-
+* Forked from hpsu/nzbget-chrome 1.6
+* Renamed to nzbget-edge to satisfy microsoft extension conditions
 ---
 
 #### 1.5 - 2017-09-12
