@@ -3,10 +3,22 @@
 
 Extension to interact with nzbget
 
+### Current main features
+* Browser action popup that displays active downloads, history and stats
+* Browser action icons badge indicating number of current active downloads
+* Adds a context menu item to links to download with NZBGet
+* Notification when downloads complete
+* Uses no toolkits or frameworks, just Javascript, CSS3 and chrome.*-apis
+* Drag-n-drop sorting of download queue
+* Flow control (pause, resume, delete) on individual items or whole queue.
+* One click site intergarion on newznab sites and feedly.com
+---
+
 ### Version history
 #### 1.6 - (current dev)
-* Forked from hpsu/nzbget-chrome 1.6
-* Renamed to nzbget-edge to satisfy microsoft extension conditions
+* Forked from hpsu/nzbget-chrome 1.6, continue to raise issues there
+* Renamed to nzbget-edge to satisfy microsoft extension conditions (Product Policies 1.1.2)
+* Added privacy policy to satisfy microsoft extension conditions (Product Policies 1.5.2)
 ---
 
 #### 1.5 - 2017-09-12
@@ -58,24 +70,3 @@ Extension to interact with nzbget
 
 #### 1.0 - 2013-12-31
 * Initial release
-
-### Current main features
-* Browser action popup that displays active downloads, history and stats
-* Browser action icons badge indicating number of current active downloads
-* Adds a context menu item to links to download with NZBGet
-* Notification when downloads complete
-* Uses no toolkits or frameworks, just Javascript, CSS3 and chrome.*-apis
-* Drag-n-drop sorting of download queue
-* Flow control (pause, resume, delete) on individual items or whole queue.
-* One click site intergarion on newznab sites and feedly.com
-
-### Installation from chrome webstore
-https://chrome.google.com/webstore/detail/nzbget-chrome/pbhceneiekgjjeblaghpkdkaomlloghm
-
-### Installation instructions (as unpacked extension)
-*Note: Newer versions of chrome for windows will show a yellow icon backgorund for unpacked extensions*
-
-1. Download a release or checkout repo with git
-2. Open chrome://extensions/ in Chrome / Chromium
-3. Make sure the "Developer mode" checkbox is checked.
-4. Click "Load unpacked extension..." and choose the path you used in step 1.
