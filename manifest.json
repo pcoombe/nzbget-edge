@@ -14,13 +14,13 @@
 		"img/icon16.png"
 		,"img/nzbget-arrow.svg"
 	],
-	"name": "nzbget-chrome",
+	"name": "nzbget-edge",
 	"options_ui": {
 		"page": "options.html",
 		"chrome_style": false
 	},
 	"permissions": [ "*://*/", "contextMenus", "tabs", "notifications", "storage" ],
-	"version": "1.6",
+	"version": "1.6e",
 	"browser_action": {
 		"default_icon": "img/icon38.png",
 		"default_popup": "popup.html"
